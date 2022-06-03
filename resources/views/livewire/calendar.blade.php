@@ -14,7 +14,7 @@
 <div>
   <div id='calendar-container' wire:ignore>
     <div id='calendar'></div>
-  </div>    
+  </div>
 </div>
 
 @push('scripts')
@@ -44,7 +44,7 @@
                  @this.addevent(eventAdd);
                  alert('Great. Now, update your database...');
                }else{
-                alert('Event Title or Description Is Required');
+                alert('Event Title or Description Is Required');    
                }
             },
             editable: true,

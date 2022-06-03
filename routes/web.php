@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Calendar;
+use Illuminate\Support\Facades\App;
 use Livewire\Livewire;
 
 /*
@@ -15,9 +16,10 @@ use Livewire\Livewire;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/lang/{locale}', function ($locale) {
+    App::setLocale($locale);
+    return view('welcome');
+});
 
 Route::view('/', 'home');
 
