@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TeleController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\Calendar;
 use Illuminate\Support\Facades\App;
@@ -24,3 +25,7 @@ Route::get('/lang/{locale}', function ($locale) {
 Route::view('/', 'home');
 
 Livewire::component('calendar', Calendar::class);
+
+Route::get('/contact', [TeleController::class, 'contact'])->name('contact');
+Route::post('/contact', [TeleController::class, 'toTelegram'])->name('contact.post');
+
