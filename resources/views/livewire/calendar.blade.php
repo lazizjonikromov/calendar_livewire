@@ -61,7 +61,7 @@
     .fc-daygrid-event-dot{
         margin: 0 auto !important;
         width: 15px !important;
-        border-color: #4ad837 !important;
+        border-color: #3f3f3f !important;
     }
 
     .fc-day-today{
