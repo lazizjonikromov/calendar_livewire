@@ -9,6 +9,7 @@
 </head>
 <body>
     <livewire:calendar />
+    {{-- <livewire:animation-calendar /> --}}
     @livewireScripts
     @stack('scripts')
 </body>
