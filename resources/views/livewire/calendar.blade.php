@@ -103,6 +103,9 @@
                 return false;
                 }
             },
+
+            // fsdfgjhfhdsfdshfghsadgfdsafgsadhfgasdfgsadh
+
             // dateClick(info)  {
             //    var title = prompt('Enter Event Title');
             //    var description = prompt('Enter Event Description');
