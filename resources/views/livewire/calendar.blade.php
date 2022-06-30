@@ -104,7 +104,7 @@
                 }
             },
 
-            // fsdfgjhfhdsfdshfghsadgfdsafgsadhfgasdfgsadh
+            
 
             // dateClick(info)  {
             //    var title = prompt('Enter Event Title');
